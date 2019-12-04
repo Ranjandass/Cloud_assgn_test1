@@ -19,8 +19,6 @@ from bokeh.io import show
 # Hide some noisy warnings
 logging.getLogger('googleapiclient.discovery_cache').setLevel(logging.ERROR)
 
-modules = [modules.air.Module(), modules.temperature.Module(), modules.population.Module(), modules.precipitation.Module()]
-
 
 #start
 
